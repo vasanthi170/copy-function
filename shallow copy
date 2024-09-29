@@ -3,3 +3,9 @@ m = l[::] #shallow copy using slicing method
 n = l.copy() #shallow copy using inbuilt method
 print(m)
 print(n)
+
+#shallow copy from module
+import copy
+l = [1,2,3,4]
+dup = copy.copy(l)
+print(dup)
