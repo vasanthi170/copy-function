@@ -1,1 +1,5 @@
-
+#deep copy from module
+import copy
+l = [1,2,3,4]
+dup = copy.deepcopy(l)
+print(dup)
